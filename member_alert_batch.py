@@ -64,7 +64,7 @@ def gmail_get_messages():
                 if call_time < 0:
                     print("---")
                     print(msg['snippet'])  # 要約を表示
-                    winsound.PlaySound(data, winsound.SND_MEMORY)
+                    # winsound.PlaySound(data, winsound.SND_MEMORY)
                     is_alert = True
                 print(call_time)
         print(crnt)
